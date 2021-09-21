@@ -9,3 +9,15 @@ if(avg>=75):
     print("PASSED")
 else:
     print("FAILED")
+if(avg>=99 and avg<=100):
+    print("Grade: A")
+elif(avg>=90 and avg<=98):
+    print("Grade: B")
+elif(avg>=80 and avg<=89):
+    print("Grade: C")
+elif(avg>=71 and avg<=79):
+    print("Grade: D")
+elif(avg>=61 and avg<=70):
+    print("Grade: E")
+else: 
+    print("Grade: F")
